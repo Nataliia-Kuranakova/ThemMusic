@@ -1,0 +1,40 @@
+.wrapper-header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background: linear-gradient($main-color, rgb(47, 47, 47, 0.5));
+  box-shadow: 0px 15px 15px -7px rgb(47, 47, 47, 0.5);
+  backdrop-filter: blur(10px); 
+  width: 100%;
+}
+
+.header {
+  padding: 24px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer {
+  margin: 150px 0 0;
+  padding: 24px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__title {
+    margin: 8px 0 0 0;
+    padding: 0 30px;
+    color: #9FD2D1;
+    letter-spacing: -2px;
+    font-weight: $titles-font-weight;
+    font-size: $titles-font-size;
+  }
+
+  &__icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+

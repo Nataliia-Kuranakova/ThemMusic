@@ -1,0 +1,67 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .body {
+    font-size: 16px;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .button {
+    letter-spacing: 2px;
+    padding: 0 3px 0;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  input {
+    width: 250px;
+    margin: 20px 0 0;
+  }
+
+  .footer {
+    justify-content: center;
+    margin: 70px 0 0;
+    padding: 0 0 70px;
+  }
+
+  .footer__icons {
+    margin: 20px 0 0;
+  }
+
+  .title--error {
+    letter-spacing: 10px;
+    font-size: 34px;
+  }
+
+  .wrapper-header {
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero-wrapper {
+    padding: 50px 0 0;
+  }
+
+  .title--list {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .wrapper-header {
+    position: relative;
+    width: 100%;
+  }
+
+  .hero-wrapper {
+    padding: 50px 0 0;
+  }
+
+  .title {
+    letter-spacing: 10px;
+  }
+}

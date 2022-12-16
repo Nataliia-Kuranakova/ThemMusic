@@ -1,0 +1,21 @@
+.card {
+  background-color: #2f2f2f;
+  transition: 0.3s;
+  margin: 0 30px 0 0 ;
+ 
+  &__deskr {
+    color: #e68558;
+    font-weight: 300;
+    font-size: $subtitles-font-size;
+  }
+
+  &__subtitle {
+    margin: 0 10px 0 0;
+  }
+}
+
+.card:hover{
+  background-color: rgb(68,68,68);
+  transform: translateY(-0.25em);
+}
+
